@@ -13,7 +13,7 @@ body {
 header ul {
     background-color: #ffffff;
     overflow: hidden;
-    border-bottom: 5px solid #1a6452;
+    border-bottom: 5px solid #000000;
 }
 
 header ul li {
@@ -44,9 +44,8 @@ header::before {
     margin-top: 10%;
 }
 
-.intro h1,h2,h3 {
+.intro h1,h2,h3,p {
     color: #ffffff;
-    padding: 10px;
 }
 
 .intro h1 {
