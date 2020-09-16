@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+body {
+    background-image: url('images/bg.png');
+    background-size: cover;
+}
+
 li {
     float: left;
     list-style: none;
@@ -23,4 +28,27 @@ li a {
 li a:hover {
     background-color: #ffffff;
     color: #000000;
+}
+
+#intro .info {
+    float: left;
+    margin-left: 15%;
+    margin-top: 10%;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    opacity: 80%;
+}
+
+#intro .pic {
+    width: 20%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#intro .pic img {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid orange;
 }
