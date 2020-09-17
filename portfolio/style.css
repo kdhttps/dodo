@@ -64,3 +64,30 @@ header::before {
     border-radius: 50%;
     border: 5px solid #ffffff;
 }
+
+#myservice {
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+#myservice .service {
+    float: left;
+    background-color: #000000;
+    padding: 20px;
+    color: #ffffff;
+    width: 30%;
+    margin-left: 3%;
+    text-align: center;
+    opacity: 90%;
+    margin-top: 10px;
+}
+
+#myservice .service h1,p {
+    padding: 10px;
+}
+
+#myservice .title {
+    margin-left: 3%;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
