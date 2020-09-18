@@ -68,6 +68,10 @@ header::before {
 #myservice {
     margin-top: 10%;
     margin-bottom: 20px;
+    background-image: url('bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
 }
 
 #myservice .service {
@@ -98,7 +102,7 @@ header::before {
 
 #myskills .title {
     margin-left: 3%;
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
@@ -118,4 +122,3 @@ header::before {
 #myskills .skill img:hover {
     transform: rotate(360deg);
 }
-
