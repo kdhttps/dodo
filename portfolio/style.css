@@ -7,7 +7,7 @@
 body {
     background-image: url('bg.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 header ul {
@@ -91,3 +91,31 @@ header::before {
     font-size: 40px;
     margin-bottom: 20px;
 }
+
+#myskills {
+    margin-top: 6%;
+}
+
+#myskills .title {
+    margin-left: 3%;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#myskills .skill {
+    width: 10%;
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+}
+
+#myskills .skill img {
+    width: 100%;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+#myskills .skill img:hover {
+    transform: rotate(360deg);
+}
+
