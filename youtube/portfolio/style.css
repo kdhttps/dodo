@@ -92,3 +92,29 @@ li a:hover {
     margin-bottom: 2%;
     font-size: 35px;
 }
+
+#myskills .title {
+    margin-left: 1%;
+    font-size: 35px;
+}
+
+#myskills .skill {
+    width: 10%;
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+}
+
+#myskills .skill img {
+    width: 100%;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+#myskills .skill img:hover {
+    transform: rotate(360deg);
+}
+
+#myskills .skill h1 {
+    font-size: 20px;
+}
