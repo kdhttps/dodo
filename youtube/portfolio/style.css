@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 body {
@@ -67,8 +68,8 @@ li a:hover {
 }
 
 #myservice {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #myservice .service {
@@ -96,13 +97,14 @@ li a:hover {
 #myskills .title {
     margin-left: 1%;
     font-size: 35px;
+    margin-bottom: 1%;
 }
 
 #myskills .skill {
     width: 10%;
     float: left;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 #myskills .skill img {
@@ -117,4 +119,15 @@ li a:hover {
 
 #myskills .skill h1 {
     font-size: 20px;
+}
+
+#myskills {
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
+
+.clearfix::after {
+    clear: both;
+    display: table;
+    content: "";
 }
