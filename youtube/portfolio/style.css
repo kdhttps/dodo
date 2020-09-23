@@ -96,7 +96,7 @@ li a:hover {
 
 #myskills .title {
     margin-left: 1%;
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 1%;
 }
 
@@ -104,7 +104,7 @@ li a:hover {
     width: 10%;
     float: left;
     text-align: center;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 #myskills .skill img {
@@ -119,6 +119,7 @@ li a:hover {
 
 #myskills .skill h1 {
     font-size: 20px;
+    margin-top: 10px;
 }
 
 #myskills {
@@ -130,4 +131,16 @@ li a:hover {
     clear: both;
     display: table;
     content: "";
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: rgb(6, 160, 6);
+}
+
+.yellow {
+    color: yellow
 }
