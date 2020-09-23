@@ -31,8 +31,12 @@ header ul li a {
 }
 
 header ul li a:hover {
-    background-color: #000000;
+    background-color: rgb(129, 0, 180);
     color: #ffffff;
+}
+
+header ul li a:hover i {
+    color: white;
 }
 
 header::before {
@@ -47,6 +51,7 @@ header::before {
 
 .intro h1,h2,h3,p {
     color: #ffffff;
+    margin-top: 5px;
 }
 
 .intro h1 {
@@ -122,4 +127,20 @@ header::before {
 
 #myskills .skill img:hover {
     transform: rotate(360deg);
+}
+
+.purple {
+    color: rgb(129, 0, 180);
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: rgb(219, 0, 0);
+}
+
+.green {
+    color: green;
 }
