@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Grandstander', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 body {
@@ -99,11 +99,12 @@ header::before {
 #myservice .title {
     margin-left: 3%;
     font-size: 40px;
-    margin-bottom: 20px;
 }
 
 #myskills {
-    margin-top: 6%;
+    background-color: #3333;
+    padding-top: 40px;
+    padding-bottom: 34px;
 }
 
 #myskills .title {
@@ -143,4 +144,41 @@ header::before {
 
 .green {
     color: green;
+}
+
+#portfolio {
+    background-image: url('bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portfolio .title{
+    margin-left: 3%;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 5%;   
+}
+
+#portfolio .work {
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    padding: 10px;
+    background-color: black;
+    margin-top: 10px;
+    opacity: 90%;
+}
+
+#portfolio .work img {
+    width: 100%;
+}
+
+#portfolio .work h1 {
+    margin-top: 6px;
+    color: white;
+}
+
+#portfolio .work p {
+    margin-top: 6px;
+    color: white;
 }
