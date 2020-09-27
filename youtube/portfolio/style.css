@@ -144,3 +144,33 @@ li a:hover {
 .yellow {
     color: yellow
 }
+
+#myportfolio .work {
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    background-color: black;
+    opacity: 90%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#myportfolio .work img {
+    width: 100%;
+}
+
+#myportfolio .work h1 {
+    margin-top: 5px;
+    color: white;
+}
+
+#myportfolio .work p {
+    margin-top: 5px;
+    color: white;
+}
+
+#myportfolio .title {
+    margin-left: 3%;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
