@@ -174,3 +174,31 @@ li a:hover {
     font-size: 35px;
     margin-bottom: 10px;
 }
+
+#myportfolio {
+    padding-bottom: 5%;
+}
+
+footer {
+    background-color: #000000;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer .address {
+    margin-top: 3%;
+}
+
+footer .social {
+    margin-top: 5%;
+    word-spacing: 40px;
+}
+
+.copyright {
+    padding:30px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #333333;
+}
