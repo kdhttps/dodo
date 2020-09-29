@@ -150,6 +150,7 @@ header::before {
     background-image: url('bg2.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 5%;
 }
 
 #portfolio .title{
@@ -181,4 +182,28 @@ header::before {
 #portfolio .work p {
     margin-top: 6px;
     color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.copyright {
+    padding: 30px;
+    text-align: center;
+    background: #1e1d1d;
+    margin-top: 0;
+}
+
+footer .connects {
+    margin-top: 5%;
+    word-spacing: 40px;
+}
+
+footer .address {
+    margin-top: 2%;
 }
