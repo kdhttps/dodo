@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Varela Round', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -201,4 +202,12 @@ footer .social {
     text-align: center;
     color: #ffffff;
     background-color: #333333;
+}
+
+.fixed-button {
+    font-size: 45px;
+    color: #ffffff;
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
 }
