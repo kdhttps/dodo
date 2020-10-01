@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Nanum Gothic', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -206,4 +207,12 @@ footer .connects {
 
 footer .address {
     margin-top: 2%;
+}
+
+.fixed-button {
+    position: fixed;
+    right: 1%;
+    bottom: 2%;
+    font-size: 40px;
+    color: black;
 }
