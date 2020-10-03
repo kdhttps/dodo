@@ -8,6 +8,7 @@
 body {
     background-image: url('images/bg.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 li {
@@ -172,12 +173,13 @@ li a:hover {
 
 #myportfolio .title {
     margin-left: 3%;
-    font-size: 35px;
+    font-size: 45px;
     margin-bottom: 10px;
 }
 
 #myportfolio {
     padding-bottom: 5%;
+    margin-top: 5%;
 }
 
 footer {
